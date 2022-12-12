@@ -1,0 +1,21 @@
+lockfileVersion: 5.4
+
+specifiers:
+  mauss: ^0.4.6
+  prettier: ^2.8.1
+
+devDependencies:
+  mauss: 0.4.6
+  prettier: 2.8.1
+
+packages:
+
+  /mauss/0.4.6:
+    resolution: {integrity: sha512-Q4XwfBDiJETZLsRzxfUEXoS94t6Dq5mNhUla7Oh7pExUK7t63j8Md3+gda3xePVU24D4waOOVYAqLOl6ospUxg==}
+    dev: true
+
+  /prettier/2.8.1:
+    resolution: {integrity: sha512-lqGoSJBQNJidqCHE80vqZJHWHRFoNYsSpP9AjFhlhi9ODCJA541svILes/+/1GM3VaL/abZi7cpFzOpdR9UPKg==}
+    engines: {node: '>=10.13.0'}
+    hasBin: true
+    dev: true

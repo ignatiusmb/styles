@@ -1,0 +1,32 @@
+{
+  "name": "@ignatiusmb/styles",
+  "author": "Ignatius Bagus",
+  "description": "Essential stylesheets",
+  "version": "0.1.0",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "check": "pnpm check:style",
+    "check:style": "prettier -c .",
+    "test": "echo \"no test specified\"",
+    "pub:format": "prettier -w .",
+    "prepublishOnly": "pnpm pub:format"
+  },
+  "exports": {
+    "./core.css": "./core.css",
+    "./package.json": "./package.json"
+  },
+  "packageManager": "pnpm@7.17.1",
+  "prettier": "mauss/prettier.json",
+  "repository": "github:ignatiusmb/styles",
+  "bugs": "https://github.com/ignatiusmb/styles/issues",
+  "keywords": [
+    "essential",
+    "stylesheets",
+    "css"
+  ],
+  "devDependencies": {
+    "mauss": "^0.4.6",
+    "prettier": "^2.8.1"
+  }
+}
