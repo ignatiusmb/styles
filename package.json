@@ -1,32 +1,30 @@
 {
-  "name": "@ignatiusmb/styles",
-  "author": "Ignatius Bagus",
-  "description": "Essential stylesheets",
-  "version": "0.1.1",
-  "license": "MIT",
-  "type": "module",
-  "scripts": {
-    "check": "pnpm check:style",
-    "check:style": "prettier -c .",
-    "test": "echo \"no test specified\"",
-    "pub:format": "prettier -w .",
-    "prepublishOnly": "pnpm pub:format"
-  },
-  "exports": {
-    "./core.css": "./core.css",
-    "./package.json": "./package.json"
-  },
-  "packageManager": "pnpm@7.17.1",
-  "prettier": "mauss/prettier.json",
-  "repository": "github:ignatiusmb/styles",
-  "bugs": "https://github.com/ignatiusmb/styles/issues",
-  "keywords": [
-    "essential",
-    "stylesheets",
-    "css"
-  ],
-  "devDependencies": {
-    "mauss": "^0.4.6",
-    "prettier": "^2.8.1"
-  }
+	"name": "@ignatiusmb/styles",
+	"version": "0.1.1",
+	"description": "Essential stylesheets",
+	"repository": "github:ignatiusmb/styles",
+	"author": "Ignatius Bagus",
+	"type": "module",
+	"scripts": {
+		"check": "pnpm check:style",
+		"check:style": "prettier -c . --plugin=prettier-plugin-sort-package-json",
+		"pub:format": "prettier -w . --plugin=prettier-plugin-sort-package-json",
+		"prepublishOnly": "pnpm pub:format"
+	},
+	"exports": {
+		"./core.css": "./core.css",
+		"./package.json": "./package.json"
+	},
+	"packageManager": "pnpm@8.6.11",
+	"prettier": "mauss/prettier.json",
+	"keywords": [
+		"essential",
+		"stylesheets",
+		"css"
+	],
+	"devDependencies": {
+		"mauss": "^0.7.0",
+		"prettier": "^3.0.1",
+		"prettier-plugin-sort-package-json": "^0.1.1"
+	}
 }
