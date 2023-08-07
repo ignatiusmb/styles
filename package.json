@@ -6,16 +6,16 @@
 	"author": "Ignatius Bagus",
 	"type": "module",
 	"scripts": {
-		"check": "pnpm check:style",
-		"check:style": "prettier -c . --plugin=prettier-plugin-sort-package-json",
-		"pub:format": "prettier -w . --plugin=prettier-plugin-sort-package-json",
-		"prepublishOnly": "pnpm pub:format"
+		"check": "prettier -c . --plugin=prettier-plugin-sort-package-json",
+		"format": "prettier -w . --plugin=prettier-plugin-sort-package-json"
 	},
 	"exports": {
 		"./core.css": "./core.css",
 		"./package.json": "./package.json"
 	},
-  "files": ["core.css"],
+	"files": [
+		"core.css"
+	],
 	"packageManager": "pnpm@8.6.11",
 	"prettier": "mauss/prettier.json",
 	"keywords": [
