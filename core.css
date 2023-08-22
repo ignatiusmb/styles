@@ -42,6 +42,7 @@ samp {
 	margin: 0;
 	font-family: var(--font-monospace);
 	font-weight: lighter;
+	tab-size: 2;
 }
 hr {
 	box-sizing: content-box;
