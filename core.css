@@ -88,7 +88,7 @@ select {
 }
 button {
 	cursor: pointer;
-	padding: 0.2em 0.5em;
+	padding: 0.25rem 0.5rem;
 	border: 0;
 	outline: 0;
 	background: 0;
@@ -115,9 +115,9 @@ button:-moz-focusring {
 }
 input {
 	width: 100%;
-	padding: 0.8em 0.9em;
+	padding: 0.75rem 1rem;
 	border: none;
-	border-radius: 0.3em;
+	border-radius: 0.5rem;
 	background-color: var(--bg-base);
 }
 textarea {
@@ -129,7 +129,7 @@ img {
 	border-style: none;
 }
 fieldset {
-	padding: 0.35em 0.75em 0.625em;
+	padding: 0.35rem 0.75rem 0.625rem;
 }
 legend {
 	box-sizing: border-box;
