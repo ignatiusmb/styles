@@ -4,7 +4,7 @@
 	box-sizing: border-box;
 }
 html {
-	font-family: var(--font-default);
+	font-family: var(--font-default, sans-serif);
 	line-height: 1.15;
 	-webkit-text-size-adjust: 100%;
 }
@@ -40,7 +40,7 @@ kbd,
 pre,
 samp {
 	margin: 0;
-	font-family: var(--font-monospace);
+	font-family: var(--font-monospace, monospace);
 	font-weight: lighter;
 	tab-size: 2;
 }
