@@ -4,6 +4,7 @@
 	"description": "Essential stylesheets",
 	"repository": "github:ignatiusmb/styles",
 	"author": "Ignatius Bagus",
+	"license": "MIT",
 	"type": "module",
 	"scripts": {
 		"check": "prettier -c . --plugin=prettier-plugin-sort-package-json",
