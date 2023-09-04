@@ -6,31 +6,31 @@ settings:
 
 devDependencies:
   mauss:
-    specifier: ^0.7.0
-    version: 0.7.0
+    specifier: ^0.7.2
+    version: 0.7.2
   prettier:
-    specifier: ^3.0.1
-    version: 3.0.1
+    specifier: ^3.0.3
+    version: 3.0.3
   prettier-plugin-sort-package-json:
-    specifier: ^0.1.1
-    version: 0.1.1(prettier@3.0.1)
+    specifier: ^0.2.0
+    version: 0.2.0(prettier@3.0.3)
 
 packages:
 
-  /mauss@0.7.0:
-    resolution: {integrity: sha512-1alb7+ne13blJSZ9tsZ1Vc6D6QnmA5GJgztXG/GiYUhvAOz5ML1DBqaHn0GsiaSctG0iSWWvDO/j2nU+czJawA==}
+  /mauss@0.7.2:
+    resolution: {integrity: sha512-2UJkOyBtytLsDQEejoNw6sFb/8UcCvCyWdx51C795ycMP8hrjIIgzOaLPgETeuUQ4YSgBeeqO285dW8lLnmLYw==}
     dev: true
 
-  /prettier-plugin-sort-package-json@0.1.1(prettier@3.0.1):
-    resolution: {integrity: sha512-mnnLmKyL/bigGISn2xLObeGS5a/tdbR2ll6Ek1QLPBUfket4ydpYhZJxllHlxJkzwOT1ooRw9yWM7SkNXvB9oQ==}
+  /prettier-plugin-sort-package-json@0.2.0(prettier@3.0.3):
+    resolution: {integrity: sha512-jg+CfEHpmXyMJxoBSQh+IObmCxqt7KyHOuXGQm9D4heeyipEhlTJZfiS9SlfhBKrtf/yA8WZwHmynUG9xfF/rA==}
     peerDependencies:
       prettier: ^3.0.0
     dependencies:
-      prettier: 3.0.1
+      prettier: 3.0.3
     dev: true
 
-  /prettier@3.0.1:
-    resolution: {integrity: sha512-fcOWSnnpCrovBsmFZIGIy9UqK2FaI7Hqax+DIO0A9UxeVoY4iweyaFjS5TavZN97Hfehph0nhsZnjlVKzEQSrQ==}
+  /prettier@3.0.3:
+    resolution: {integrity: sha512-L/4pUDMxcNa8R/EthV08Zt42WBO4h1rarVtK0K+QJG0X187OLo7l699jWw0GKuwzkPQ//jMFA/8Xm6Fh3J/DAg==}
     engines: {node: '>=14'}
     hasBin: true
     dev: true

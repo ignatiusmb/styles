@@ -16,7 +16,7 @@
 	"files": [
 		"core.css"
 	],
-	"packageManager": "pnpm@8.6.11",
+	"packageManager": "pnpm@8.7.1",
 	"prettier": "mauss/prettier.json",
 	"keywords": [
 		"essential",
@@ -24,8 +24,8 @@
 		"css"
 	],
 	"devDependencies": {
-		"mauss": "^0.7.0",
-		"prettier": "^3.0.1",
-		"prettier-plugin-sort-package-json": "^0.1.1"
+		"mauss": "^0.7.2",
+		"prettier": "^3.0.3",
+		"prettier-plugin-sort-package-json": "^0.2.0"
 	}
 }
