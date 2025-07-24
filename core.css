@@ -46,7 +46,7 @@ var {
 	tab-size: 2;
 	font-family: var(--font-mono, monospace);
 	font-variation-settings: var(--font-mono-variation);
-	font-weight: 450;
+	font-weight: 350;
 }
 hr {
 	box-sizing: content-box;
