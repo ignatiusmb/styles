@@ -3,10 +3,14 @@
 ::before {
 	box-sizing: border-box;
 }
+:root {
+	--font-base: 'Newsreader Variable', 'Newsreader', 'Georgia', serif;
+	--font-sans: 'Recursive Variable', system-ui, 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif;
+	--font-mono: 'Recursive Variable', ui-monospace, monospace;
+}
 html {
 	line-height: 1.15;
 	font-family: var(--font-base, sans-serif);
-	font-variation-settings: var(--font-base-variation);
 	-webkit-text-size-adjust: 100%;
 }
 body {
