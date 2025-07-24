@@ -9,36 +9,36 @@ importers:
   .:
     devDependencies:
       mauss:
-        specifier: ^0.10.0
-        version: 0.10.0
+        specifier: ^0.10.6
+        version: 0.10.6
       prettier:
-        specifier: ^3.5.3
-        version: 3.5.3
+        specifier: ^3.6.2
+        version: 3.6.2
       prettier-plugin-sort-package-json:
         specifier: ^1.1.0
-        version: 1.1.0(prettier@3.5.3)
+        version: 1.1.0(prettier@3.6.2)
 
 packages:
 
-  mauss@0.10.0:
-    resolution: {integrity: sha512-OH4RIKrI/getVvJDK7HQvELjD52cQAyArWfVZqfsDIhP+to9Z0uQPenLEnm0SKKiL5AHGPTHqTAF46EJ0eh7bw==}
+  mauss@0.10.6:
+    resolution: {integrity: sha512-KIHfRm8I2cFuazO5dkejxHvvFbYaa/KUT5Bc1AA5Vz2KOP+lKnQ4C1uVlsTlURx0vI8/hGMw3KzlKYCxHV6+AA==}
 
   prettier-plugin-sort-package-json@1.1.0:
     resolution: {integrity: sha512-vbOfkAvNjqbpZT7QdhGS/KE66C8J789zdzJtQvKHuM46+nBz7+A+2DrDuBriVPd9uf3qDRCKxHGKZ31bJQ87tA==}
     peerDependencies:
       prettier: ^3.0.0
 
-  prettier@3.5.3:
-    resolution: {integrity: sha512-QQtaxnoDJeAkDvDKWCLiwIXkTgRhwYDEQCghU9Z6q03iyek/rxRh/2lC3HB7P8sWT2xC/y5JDctPLBIGzHKbhw==}
+  prettier@3.6.2:
+    resolution: {integrity: sha512-I7AIg5boAr5R0FFtJ6rCfD+LFsWHp81dolrFD8S79U9tb8Az2nGrJncnMSnys+bpQJfRUzqs9hnA81OAA3hCuQ==}
     engines: {node: '>=14'}
     hasBin: true
 
 snapshots:
 
-  mauss@0.10.0: {}
+  mauss@0.10.6: {}
 
-  prettier-plugin-sort-package-json@1.1.0(prettier@3.5.3):
+  prettier-plugin-sort-package-json@1.1.0(prettier@3.6.2):
     dependencies:
-      prettier: 3.5.3
+      prettier: 3.6.2
 
-  prettier@3.5.3: {}
+  prettier@3.6.2: {}
