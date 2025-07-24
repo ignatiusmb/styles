@@ -11,7 +11,7 @@
 html {
 	line-height: 1.15;
 	font-family: var(--font-base, sans-serif);
-	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
 }
 body {
 	scroll-behavior: smooth;
@@ -110,7 +110,6 @@ button {
 [type='reset'],
 [type='submit'],
 button {
-	-webkit-appearance: button;
 	appearance: button;
 }
 [type='button']::-moz-focus-inner,
