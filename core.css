@@ -4,8 +4,9 @@
 	box-sizing: border-box;
 }
 html {
-	font-family: var(--font-base, sans-serif);
 	line-height: 1.15;
+	font-family: var(--font-base, sans-serif);
+	font-variation-settings: var(--font-base-variation);
 	-webkit-text-size-adjust: 100%;
 }
 body {
@@ -37,11 +38,15 @@ ul[class] {
 code,
 kbd,
 pre,
-samp {
+samp,
+tt,
+var {
+	padding: 0;
 	margin: 0;
-	font-family: var(--font-mono, monospace);
-	font-weight: lighter;
 	tab-size: 2;
+	font-family: var(--font-mono, monospace);
+	font-variation-settings: var(--font-mono-variation);
+	font-weight: 450;
 }
 hr {
 	box-sizing: content-box;
@@ -63,7 +68,11 @@ abbr[title] {
 }
 b,
 strong {
-	font-weight: bolder;
+	font-weight: 600;
+}
+i,
+em {
+	font-style: italic;
 }
 small {
 	font-size: 0.8rem;
