@@ -1,7 +1,7 @@
 {
 	"name": "@ignatiusmb/styles",
 	"version": "0.1.1",
-	"description": "a minimal, opinionated layer of typographic and layout defaults",
+	"description": "minimal and opinionated layer of typographic and style defaults",
 	"repository": "github:ignatiusmb/styles",
 	"author": "Ignatius Bagus",
 	"license": "MIT",
@@ -20,9 +20,9 @@
 	"packageManager": "pnpm@10.12.1",
 	"prettier": "mauss/prettier.config.js",
 	"keywords": [
-		"essential",
-		"stylesheets",
-		"css"
+		"css",
+		"typography",
+		"stylesheets"
 	],
 	"devDependencies": {
 		"mauss": "^0.10.0",
