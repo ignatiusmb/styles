@@ -1,6 +1,6 @@
 {
 	"name": "@ignatiusmb/styles",
-	"version": "0.1.1",
+	"version": "0.2.0",
 	"description": "minimal and opinionated layer of typographic and style defaults",
 	"repository": "github:ignatiusmb/styles",
 	"author": "Ignatius Bagus",
