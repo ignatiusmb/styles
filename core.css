@@ -80,6 +80,14 @@ strong {
 i,
 em {
 	font-style: italic;
+	font-variation-settings:
+		var(--font-sans-variation),
+		'slnt' -15;
+}
+em code {
+	font-variation-settings:
+		var(--font-mono-variation),
+		'slnt' -15;
 }
 small {
 	font-size: 0.8rem;
