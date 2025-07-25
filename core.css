@@ -7,10 +7,13 @@
 	--font-base: 'Newsreader Variable', 'Newsreader', 'Georgia', serif;
 	--font-sans: 'Recursive Variable', system-ui, 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif;
 	--font-mono: 'Recursive Variable', ui-monospace, monospace;
+	--font-sans-variation: 'MONO' 0, 'CASL' 0.4, 'CRSV' 0;
+	--font-mono-variation: 'MONO' 1, 'CASL' 0.1, 'CRSV' 0;
 }
 html {
 	line-height: 1.15;
 	font-family: var(--font-base, sans-serif);
+	font-variation-settings: var(--font-sans-variation);
 	text-size-adjust: 100%;
 }
 body {
