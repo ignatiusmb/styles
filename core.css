@@ -3,13 +3,20 @@
 ::before {
 	box-sizing: border-box;
 }
+:root {
+	--font-base: 'Newsreader Variable', 'Newsreader', 'Georgia', serif;
+	--font-sans: 'Recursive Variable', system-ui, 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif;
+	--font-mono: 'Recursive Variable', ui-monospace, monospace;
+	--font-sans-variation: 'MONO' 0, 'CASL' 0.4, 'CRSV' 0;
+	--font-mono-variation: 'MONO' 1, 'CASL' 0.1, 'CRSV' 0;
+}
 html {
-	font-family: var(--font-default, sans-serif);
 	line-height: 1.15;
-	-webkit-text-size-adjust: 100%;
+	font-family: var(--font-base, sans-serif);
+	font-variation-settings: var(--font-sans-variation);
+	text-size-adjust: 100%;
 }
 body {
-	min-height: 100vh;
 	scroll-behavior: smooth;
 	text-rendering: optimizeSpeed;
 }
@@ -38,11 +45,15 @@ ul[class] {
 code,
 kbd,
 pre,
-samp {
+samp,
+tt,
+var {
+	padding: 0;
 	margin: 0;
-	font-family: var(--font-monospace, monospace);
-	font-weight: lighter;
 	tab-size: 2;
+	font-family: var(--font-mono, monospace);
+	font-variation-settings: var(--font-mono-variation);
+	font-weight: 350;
 }
 hr {
 	box-sizing: content-box;
@@ -64,7 +75,19 @@ abbr[title] {
 }
 b,
 strong {
-	font-weight: bolder;
+	font-weight: 600;
+}
+i,
+em {
+	font-style: italic;
+	font-variation-settings:
+		var(--font-sans-variation),
+		'slnt' -15;
+}
+em code {
+	font-variation-settings:
+		var(--font-mono-variation),
+		'slnt' -15;
 }
 small {
 	font-size: 0.8rem;
@@ -98,7 +121,6 @@ button {
 [type='reset'],
 [type='submit'],
 button {
-	-webkit-appearance: button;
 	appearance: button;
 }
 [type='button']::-moz-focus-inner,
